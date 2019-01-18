@@ -25,7 +25,25 @@ class aurioTouchAppDelegate: NSObject, UIApplicationDelegate {
     
     //MARK:-
     
+    //麦克风
+    func checkMicroPermission() -> Bool{
+        let mediaType = AVMediaType.audio
+        let authorizationStatus = AVCaptureDevice.authorizationStatus(for: mediaType)
+        switch authorizationStatus {
+        case .notDetermined:  //用户尚未做出选择
+            return false
+        case .authorized:  //已授权
+            return true
+        case .denied:  //用户拒绝
+            return false
+        case .restricted:  //家长控制
+            return false
+        }
+    }
+    
+    
     func applicationDidFinishLaunching(_ application: UIApplication) {
+        checkMicroPermission();
         let screenBounds = UIScreen.main.bounds
         window = UIWindow(frame: screenBounds)
         

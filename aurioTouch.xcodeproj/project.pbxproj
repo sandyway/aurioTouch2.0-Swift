@@ -246,6 +246,7 @@
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 6ELU9563V5;
 						LastSwiftMigration = 1000;
 					};
 				};
@@ -334,14 +335,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6ELU9563V5;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = aurioTouch_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.oopers.sample.aurioTouch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swing.phone;
 				PRODUCT_NAME = aurioTouch;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "aurioTouch-Bridging-Header.h";
@@ -357,12 +358,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6ELU9563V5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = aurioTouch_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.oopers.sample.aurioTouch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swing.phone;
 				PRODUCT_NAME = aurioTouch;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "aurioTouch-Bridging-Header.h";
